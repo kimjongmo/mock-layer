@@ -9,12 +9,14 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
 @ToString
 @Setter
 @Getter
+@NoArgsConstructor
 @AllArgsConstructor
 @Entity
 public class Item {
